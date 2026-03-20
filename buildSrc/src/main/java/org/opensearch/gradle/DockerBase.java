@@ -36,7 +36,7 @@ package org.opensearch.gradle;
  * This class models the different Docker base images that are used to build Docker distributions of OpenSearch.
  */
 public enum DockerBase {
-    ALMALINUX("almalinux:10");
+    ALMALINUX("registry.access.redhat.com/ubi9/ubi:latest");
 
     private final String image;
 
